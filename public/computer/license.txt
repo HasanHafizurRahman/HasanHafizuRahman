@@ -1,0 +1,11 @@
+Model Information:
+* title:	A personal computer.
+* source:	https://sketchfab.com/3d-models/a-personal-computer-54a9a7c2faf441c980b0ff07299431cd
+* author:	Valger (https://sketchfab.com/Valger)
+
+Model License:
+* license type:	CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions can not be distributed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "A personal computer." (https://sketchfab.com/3d-models/a-personal-computer-54a9a7c2faf441c980b0ff07299431cd) by Valger (https://sketchfab.com/Valger) licensed under CC-BY-NC-ND-4.0 (http://creativecommons.org/licenses/by-nc-nd/4.0/)
