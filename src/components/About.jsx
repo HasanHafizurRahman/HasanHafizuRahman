@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import logo from '../assets/logo.png';
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -37,21 +38,36 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+       <div className='flex flex-col lg:flex-row items-center justify-between'>
+        <div className='lg:pr-12'>
+          <motion.div variants={textVariant()}>
+            <p className={styles.sectionSubText}>Introduction</p>
+            <h2 className={styles.sectionHeadText}>Overview.</h2>
+          </motion.div>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+          <motion.p
+            variants={fadeIn("", "", 0.1, 1)}
+            className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+          >
+            I'm a skilled software developer with experience in TypeScript and
+            JavaScript, and expertise in frameworks like React, Node.js, and
+            Three.js. I'm a quick learner and collaborate closely with clients to
+            create efficient, scalable, and user-friendly solutions that solve
+            real-world problems. Let's work together to bring your ideas to life!
+          </motion.p>
+        </div>
+
+        <motion.div
+          variants={fadeIn("right", "spring", 0.5, 0.75)}
+          className='mt-10 lg:mt-0 lg:ml-auto'
+        >
+          <img
+            src={logo}
+            alt='Hasan'
+            className='w-full h-auto max-w-xs lg:max-w-sm rounded-[20px] object-cover'
+          />
+        </motion.div>
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
