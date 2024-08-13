@@ -11,7 +11,7 @@ import react from "./react.png"
 import frontend from "./frontend.png"
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import next from "./tech/next.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -42,7 +42,7 @@ export {
   menu,
   close,
   css,
-  docker,
+  next,
   figma,
   git,
   html,

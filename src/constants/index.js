@@ -14,7 +14,7 @@ import {
   mongodb,
   git,
   figma,
-  docker,
+  next,
   hkit_01,
   carrent,
   jobit,
@@ -109,8 +109,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    icon: docker,
+    name: "NextJs",
+    icon: next,
   },
 ];
 
