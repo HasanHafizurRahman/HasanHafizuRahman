@@ -26,9 +26,9 @@ import threejs from "./tech/threejs.svg";
 
 import hkit_01 from "./company/hkit_01.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import smartPOS from "./smartPOS.png";
+import officeDesk from "./officeDesk.png";
+import react_nitro_form from "./react_nitro_form.png";
 import profile from "./profile.png"
 
 
@@ -55,9 +55,9 @@ export {
   typescript,
   threejs,
   hkit_01,
-  carrent,
-  jobit,
-  tripguide,
+  smartPOS,
+  officeDesk,
+  react_nitro_form,
   profile,
   js,
   react,

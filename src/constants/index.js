@@ -16,9 +16,9 @@ import {
   figma,
   next,
   hkit_01,
-  carrent,
-  jobit,
-  tripguide,
+  smartPOS,
+  officeDesk,
+  react_nitro_form,
   threejs,
   js,
   react,
@@ -161,7 +161,7 @@ const projects = [
   {
     name: "Smart POS",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      '"Smart POS"  is an all-in-one system for managing suppliers, inventory, sales, and accounts, tailored to optimize business operations',
     tags: [
       {
         name: "react",
@@ -176,13 +176,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/HasanHafizurRahman",
+    image: smartPOS
   },
   {
     name: "Office Desk",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      '"Office Desk" is HRM software that simplifies employee management, payroll, leave tracking, and more, offering an all-in-one solution for small businesses.',
     tags: [
       {
         name: "react",
@@ -197,29 +196,27 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: officeDesk
   },
   {
-    name: "H Food",
+    name: "React Nitro Form",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "React-Nitro-Form is a lightweight Npm Package for effortless form handling in React, offering a simple API for managing form state, validation, and submission.",
     tags: [
       {
-        name: "nextjs",
+        name: "npm",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rollup",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "react",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: react_nitro_form,
   },
 ];
 
