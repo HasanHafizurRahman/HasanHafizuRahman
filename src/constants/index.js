@@ -172,7 +172,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "Material Ui",
+        name: "material ui",
         color: "pink-text-gradient",
       },
     ],
@@ -192,7 +192,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "ant design",
         color: "pink-text-gradient",
       },
     ],
@@ -201,7 +201,7 @@ const projects = [
   {
     name: "React Nitro Form",
     description:
-      "React-Nitro-Form is a lightweight Npm Package for effortless form handling in React, offering a simple API for managing form state, validation, and submission.",
+      "'react-nitro-form' is a lightweight Npm Package for effortless form handling in React, offering a simple API for managing form state, validation, and submission.",
     tags: [
       {
         name: "npm",
