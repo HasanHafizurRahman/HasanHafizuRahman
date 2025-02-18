@@ -25,6 +25,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import hkit_01 from "./company/hkit_01.png";
+import virleaf from "./company/virleaf.jpeg"
 
 import smartPOS from "./smartPOS.png";
 import officeDesk from "./officeDesk.png";
@@ -55,6 +56,7 @@ export {
   typescript,
   threejs,
   hkit_01,
+  virleaf,
   smartPOS,
   officeDesk,
   react_nitro_form,

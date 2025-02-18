@@ -1,7 +1,4 @@
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -15,6 +12,7 @@ import {
   git,
   figma,
   next,
+  virleaf,
   hkit_01,
   smartPOS,
   officeDesk,
@@ -116,7 +114,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer",
+    title: "Junior Software Developer",
     company_name: "HK IT Limited",
     icon: hkit_01,
     iconBg: "#383E56",
@@ -126,6 +124,19 @@ const experiences = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Virleaf",
+    icon: virleaf,
+    iconBg: "#383E56",
+    date: "2024 - Present",
+    points: [
+      "Building and supporting web apps with React.js and related tools.",
+      "Working with designers, PMs, and devs to deliver top-notch products.",
+      "Creating responsive designs and ensuring cross-browser compatibility.",
+      "Reviewing code and giving helpful feedback to fellow developers.",
     ],
   }
 ];
