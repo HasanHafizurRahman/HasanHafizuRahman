@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/prop-types */
+/* eslint-disable react/no-unknown-property */
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -38,7 +41,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const About = () => {
   return (
     <>
-       <div className='flex flex-col lg:flex-row items-center justify-between'>
+       <div className='flex flex-col lg:flex-row items-center justify-between mt-10 md:mt-0'>
         <div className='lg:pr-12'>
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>Introduction</p>
