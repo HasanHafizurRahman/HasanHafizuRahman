@@ -31,6 +31,7 @@ import smartPOS from "./smartPOS.png";
 import officeDesk from "./officeDesk.png";
 import react_nitro_form from "./react_nitro_form.png";
 import ladentista from "./ladentista.png";
+import whitecat from "./whitecat.png";
 import profile from "./profile.png"
 
 
@@ -65,5 +66,6 @@ export {
   js,
   react,
   frontend,
-  ladentista
+  ladentista,
+  whitecat
 };

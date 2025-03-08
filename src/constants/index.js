@@ -15,13 +15,12 @@ import {
   virleaf,
   hkit_01,
   smartPOS,
-  officeDesk,
-  react_nitro_form,
   threejs,
   js,
   react,
   frontend,
-  ladentista
+  ladentista,
+  whitecat
 } from "../assets";
 
 export const navLinks = [
@@ -169,7 +168,42 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const projects = [ 
+  {
+    name: "Whitecat",
+    description:
+      "'whitecat.live' is a website for a Apron company. It features a sleek and modern design, showcasing the company's products and services.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      }
+    ],
+    image: whitecat,
+    url: "https://whitecat.live"
+  },
+  {
+    name: "Ladenista",
+    description:
+      "'ladentista.net' is a portfolio website for a dental product company. It features a sleek and modern design, showcasing the company's products and services.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+      
+    ],
+    image: ladentista,
+    url: "https://ladentista.net"
+  },
   {
     name: "Smart POS",
     description:
@@ -188,44 +222,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: smartPOS
-  },
-  {
-    name: "Office Desk",
-    description:
-      '"Office Desk" is HRM software that simplifies employee management, payroll, leave tracking, and more, offering an all-in-one solution for small businesses.',
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "redux",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ant design",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: officeDesk
-  },
-  {
-    name: "Ladenista",
-    description:
-      "'ladentista.net' is a portfolio website for a dental product company. It features a sleek and modern design, showcasing the company's products and services.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "tailwind css",
-        color: "green-text-gradient",
-      },
-      
-    ],
-    image: ladentista,
+    image: smartPOS,
+    url: "https://hksmartpos.com"
   },
 ];
 
