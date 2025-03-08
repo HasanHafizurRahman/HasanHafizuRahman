@@ -20,7 +20,8 @@ import {
   threejs,
   js,
   react,
-  frontend
+  frontend,
+  ladentista
 } from "../assets";
 
 export const navLinks = [
@@ -210,24 +211,21 @@ const projects = [
     image: officeDesk
   },
   {
-    name: "React Nitro Form",
+    name: "Ladenista",
     description:
-      "'react-nitro-form' is a lightweight Npm Package for effortless form handling in React, offering a simple API for managing form state, validation, and submission.",
+      "'ladentista.net' is a portfolio website for a dental product company. It features a sleek and modern design, showcasing the company's products and services.",
     tags: [
       {
-        name: "npm",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "rollup",
+        name: "tailwind css",
         color: "green-text-gradient",
       },
-      {
-        name: "react",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: react_nitro_form,
+    image: ladentista,
   },
 ];
 
